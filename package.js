@@ -2,7 +2,7 @@ Package.describe({
   name: 'irvinlim:accounts-ivle',
   version: '0.0.1',
   summary: 'Login service for NUS IVLE accounts.',
-  git: '',
+  git: 'https://github.com/irvinlim/meteor-accounts-ivle',
   documentation: 'README.md'
 });
 
