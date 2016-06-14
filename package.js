@@ -13,7 +13,7 @@ Package.onUse(function(api) {
   api.use('accounts-base', ['client', 'server']);
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('irvinlim:ivle', ['client', 'server']);
+  api.use('irvinlim:ivle@0.0.1', ['client', 'server']);
 
   api.addFiles('client/login.js', 'client');
   api.addFiles('lib/register.js');
