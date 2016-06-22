@@ -1,6 +1,6 @@
 Package.describe({
   name: 'irvinlim:accounts-ivle',
-  version: '0.0.3',
+  version: '0.0.4',
   summary: 'Login service for NUS IVLE accounts.',
   git: 'https://github.com/irvinlim/meteor-accounts-ivle',
   documentation: 'README.md'
@@ -13,7 +13,7 @@ Package.onUse(function(api) {
   api.use('accounts-base', ['client', 'server']);
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('irvinlim:ivle@0.0.2', ['client', 'server']);
+  api.use('irvinlim:ivle@0.0.4', ['client', 'server']);
 
   api.addFiles('client/login.js', 'client');
   api.addFiles('lib/register.js');
